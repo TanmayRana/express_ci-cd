@@ -1,9 +1,8 @@
-// const request = require("supertest");
+const request = require("supertest");
 
-// const app = require("../index");
+const app = require("../index");
 
-import request from "supertest";
-import app from "../index.js";
+
 
 describe("Express API Tests", () => {
 
